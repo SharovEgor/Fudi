@@ -1,0 +1,10 @@
+@font-face{
+	font-family: 'Times New Roman';
+	src: url('../font/Times New Roman/timesbi.eot');
+	src: url('../font/Times New Roman/timesbi.eot?iefix') format('eot'),
+	url('../font/Times New Roman/timesbi.woff') format('woff'),
+	url('../font/Times New Roman/timesbi.ttf') format('truetype'),
+	url('../font/Times New Roman/timesbi.svg#webfont') format('svg');
+	font-weight: bold;
+	font-style: italic;
+}
