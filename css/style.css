@@ -46,6 +46,7 @@ button {
 	border: 0;
 	color: inherit;
     outline: none;
+	cursor: pointer;
 }
 .header_text {
 	text-align: center;
