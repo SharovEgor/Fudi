@@ -6,5 +6,5 @@
 	url('../font/Times New Roman/timesbi.ttf') format('truetype'),
 	url('../font/Times New Roman/timesbi.svg#webfont') format('svg');
 	font-weight: bold;
-	font-style: italic;
+	font-style: normal;
 }
