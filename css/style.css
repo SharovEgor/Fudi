@@ -1,12 +1,28 @@
-header{
-	background-image: url(../img/main.jpg);
-	background-size: cover;
+body {
+	font-family: 'Lato', sans-serif;
 }
-.container{
+
+.container {
 	margin-left: 13.125%;
 	margin-right: 13.125%;
 }
-nav{
+
+button {
+	 padding: 0;
+	 background-color: transparent;
+	 border: 0;
+	 color: inherit;
+	 outline: none;
+	 cursor: pointer;
+}
+
+/*Start header*/
+header {
+	background-image: url(../img/main.jpg);
+	background-size: cover;
+}
+
+nav {
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -14,7 +30,8 @@ nav{
 	display: flex;
 	justify-content: space-between;
 }
-.logo{
+
+.logo {
 	margin-top: 20px;
 }
 
@@ -26,13 +43,12 @@ nav{
 	display: flex;
 	justify-content: flex-end;
 	width: 100%;
-	font-family: 'Lato', sans-serif;
 	font-size: 14px;
 	font-weight: 700;
 	color: #fff;
 	margin-top: 50px;
 }
-.menu div {
+.menu button {
 	margin-right: 1.75%;
 }
 
@@ -40,14 +56,7 @@ nav{
 	margin-right: 0;
 }
 
-button {
-	padding: 0;
-	background-color: transparent;
-	border: 0;
-	color: inherit;
-    outline: none;
-	cursor: pointer;
-}
+
 .header_text {
 	text-align: center;
 	margin-top: 275px;
@@ -63,7 +72,6 @@ button {
 }
 
 .header_text-second {
-	font-family: 'Lato', sans-serif;
 	font-size: 100px;
 	font-weight: 700;
 	color: #fff;
@@ -72,7 +80,6 @@ button {
 }
 .header_button {
 	display: inline-block;
-	font-family: 'Lato', sans-serif;
 	font-size: 18px;
 	font-weight: 700;
 	border: 3px solid #fff;
@@ -84,9 +91,16 @@ button {
 }
 
 .header_text-third {
-	font-family: 'Lato', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	color: #fff;
 	margin-bottom: 240px;
 }
+/*End header*/
+/*Start section "first"*/
+
+
+
+
+
+/*End section "first"*/
