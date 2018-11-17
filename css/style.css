@@ -101,7 +101,6 @@ nav {
 
 .header_text-third {
 	font-size: 14px;
-	font-weight: 400;
 }
 
 /*End header*/
@@ -113,12 +112,25 @@ nav {
 	padding: 100px;
 }
 
-.get-item1,.get-item2,.get-item3 {
+.get-item1, .get-item2, .get-item3 {
 	text-align: center;
 }
-get-item-text1 {
-	position: relative;
+
+.get-item1 {
+	padding-right: 20px;
 }
+
+.get-item3 {
+	padding-left: 20px;
+}
+
+.get-item-text1 {
+	position: relative;
+	font-size: 18px;
+	font-weight: 700;
+	padding-top: 20px;
+}
+
 .get-item-text1:after {
 	content: '';
 	width: 25%;
@@ -129,12 +141,6 @@ get-item-text1 {
 	left: 0;
 	right: 0;
 	margin: auto;
-}
-
-.get-item-text1 {
-	font-size: 18px;
-	font-weight: 700;
-	padding-top: 20px;
 }
 
 .get-item-text2 {
