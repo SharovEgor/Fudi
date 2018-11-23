@@ -1,0 +1,152 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+.container {
+	max-width: 1180px;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+button {
+	 padding: 0;
+	 background-color: transparent;
+	 border: 0;
+	 color: inherit;
+	 outline: none;
+	 cursor: pointer;
+}
+
+/*Start header*/
+header {
+	background-image: url(../img/main.jpg);
+	background-size: cover;
+	height: 100vh;
+	min-height: 800px;
+	color: #fff;
+}
+
+nav {
+	position: absolute;
+	top: 20px;
+	left: 0;
+	right: 0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	font-size: 14px;
+	font-weight: 700;
+	align-items: center;
+}
+
+.menu button {
+	margin-right: 1.75%;
+}
+
+.menu button:last-child {
+	margin-right: 0;
+}
+
+.header__text {
+	text-align: center;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+}
+
+.header_text-first {
+	font-family: 'Times New Roman', serif;
+	font-size: 36px;
+	margin-bottom: 28px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.header_text-second {
+	font-size: 100px;
+	font-weight: 700;
+	margin-bottom: 40px;
+
+}
+.header_button {
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 700;
+	border: 3px solid #fff;
+	border-radius: 3px;
+	padding: 22px 6.78% 27px;
+	text-decoration: none;
+	color: #fff;
+	margin-bottom: 40px;
+}
+
+.header_text-third {
+	font-size: 14px;
+}
+
+/*End header*/
+/*Start section "first"*/
+.get-block {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 100px;
+}
+
+.get-item1, .get-item2, .get-item3 {
+	text-align: center;
+}
+
+.get-item1 {
+	padding-right: 20px;
+}
+
+.get-item3 {
+	padding-left: 20px;
+}
+
+.get-item-text1 {
+	position: relative;
+	font-size: 18px;
+	font-weight: 700;
+	padding-top: 20px;
+}
+
+.get-item-text1:after {
+	content: '';
+	width: 25%;
+	height: 1px;
+	background-color: #f57365;
+	position: absolute;
+	bottom: -10px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.get-item-text2 {
+	font-size: 16px;
+	font-weight: 300;
+	padding-top: 20px;
+}
+
+/*End section "first"*/
