@@ -188,3 +188,10 @@ nav {
 }
 
 /*End section "iphone-block"*/
+/*Start section "reviews-block"*/
+.reviews-block__slider div {
+	display: flex;
+	justify-content: center;
+}
+
+/*End section "reviews-block"*/
