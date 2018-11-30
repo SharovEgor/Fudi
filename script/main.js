@@ -1,7 +1,8 @@
-$(document).ready(function(){
+$(document).ready(function () {
     $('.reviews-block__slider').slick({
         arrows: false,
-        autoPlay: true,
-        autoplaySpeed: 1000
-});
+        autoplay: true,
+        autoplaySpeed: 3000,
+        dots: true,
+    });
 });

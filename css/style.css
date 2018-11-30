@@ -193,13 +193,16 @@ nav {
     background-image: url("../img/bg-review.png");
     -webkit-background-size: cover;
     background-size: cover;
-    padding: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
-.reviews-block__slider div {
+.reviews-block__slide {
     text-align: center;
+	color: #fff;
+	font-size: 30px;
 }
 
-.reviews-block__slider img {
+.reviews-block__slide img {
     display: inline;
 }
 
