@@ -189,9 +189,18 @@ nav {
 
 /*End section "iphone-block"*/
 /*Start section "reviews-block"*/
+.reviews-block {
+    background-image: url("../img/bg-review.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding: 80px;
+}
 .reviews-block__slider div {
-	display: flex;
-	justify-content: center;
+    text-align: center;
+}
+
+.reviews-block__slider img {
+    display: inline;
 }
 
 /*End section "reviews-block"*/
