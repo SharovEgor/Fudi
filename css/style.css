@@ -199,11 +199,20 @@ nav {
 .reviews-block__slide {
     text-align: center;
 	color: #fff;
+	font-family: 'Lato-Hairline';
 	font-size: 30px;
+	line-height: 36px;
 }
 
 .reviews-block__slide img {
     display: inline;
+	margin-bottom: 30px;
+}
+
+.reviews-block__sign {
+	font-style: italic;
+	font-size: 18px;
+	margin-top: 30px;
 }
 
 /*End section "reviews-block"*/

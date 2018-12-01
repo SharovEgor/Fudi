@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Lato-HaiIta';
+  src: url('Lato-HaiIta.eot');
+  src: url('Lato-HaiIta.woff2') format('woff2'),
+       url('Lato-HaiIta.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato-HairlineItalic';
+  src: url('Lato-HairlineItalic.woff') format('woff'),
+       url('Lato-HairlineItalic.ttf') format('truetype'),
+       url('Lato-HairlineItalic.svg#Lato-HairlineItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
