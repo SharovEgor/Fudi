@@ -151,6 +151,7 @@ nav {
 
 /*End section "first"*/
 /*Start section "iphone-block"*/
+
 .iphone-block {
     display: flex;
 }
@@ -188,3 +189,39 @@ nav {
 }
 
 /*End section "iphone-block"*/
+
+/*Start section "browse"*/
+
+.browse {
+	padding-top: 100px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.browse__titles {
+	display: inline;
+
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 0.9px;
+	position: relative;
+	margin-bottom: 50px;
+}
+.browse__titles:after {
+	content: '';
+	position: absolute;
+	width: 25%;
+	height: 1px;
+	background-color: #f57365;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+
+}
+
+.browse__catalog {
+	display: flex;
+	justify-content: center;
+}
+/*End section "browse"*/
