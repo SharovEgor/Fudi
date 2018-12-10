@@ -166,6 +166,7 @@ nav {
     font-size: 20px;
     position: relative;
 }
+
 .iphone-block__title:after {
     content: '';
     width: 25%;
@@ -194,9 +195,20 @@ footer {
     background-color: #f7f7f7;
     font-size: 14px;
     padding: 40px 0;
+	font-weight: 300;
 }
-.footer__text-left{
 
-
+footer .container {
+	display: flex;
+	justify-content: space-between;
 }
+
+.footer__text-right {
+	letter-spacing: 2.8px;
+}
+
+.footer__text-right span {
+	font-weight: 400;
+}
+
 /*End footer*/
