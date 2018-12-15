@@ -151,6 +151,7 @@ nav {
 
 /*End section "first"*/
 /*Start section "iphone-block"*/
+
 .iphone-block {
     display: flex;
 }
@@ -216,3 +217,43 @@ nav {
 }
 
 /*End section "reviews-block"*/
+
+/*Start section "browse"*/
+
+.browse {
+	padding-top: 100px;
+	text-align: center;
+}
+
+.browse__titles {
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 0.9px;
+	position: relative;
+	margin-bottom: 50px;
+	display: inline-block;
+}
+
+.browse__titles:after {
+	content: '';
+	position: absolute;
+	width: 55%;
+	height: 1px;
+	background-color: #f57365;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+	margin: 0 auto;
+}
+
+.browse__catalog {
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20% 20% ;
+	grid-template-rows: auto auto;
+}
+
+.browse__catalog img {
+	width: 100%;
+}
+
+/*End section "browse"*/
