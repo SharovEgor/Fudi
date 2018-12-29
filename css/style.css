@@ -9,6 +9,20 @@ body {
 	margin: 0 auto;
 	position: relative;
 }
+.common-underline{
+	position: relative;
+}
+.common-underline:after{
+	content: '';
+	height: 1px;
+	background-color: #f57365;
+	position: absolute;
+	bottom: -10px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 25%;
+}
 
 button {
 	 padding: 0;
@@ -125,22 +139,9 @@ nav {
     padding-right: 0;
 }
 .get-item-text1 {
-	position: relative;
 	font-size: 18px;
 	font-weight: 700;
 	padding-top: 20px;
-}
-
-.get-item-text1:after {
-	content: '';
-	width: 25%;
-	height: 1px;
-	background-color: #f57365;
-	position: absolute;
-	bottom: -10px;
-	left: 0;
-	right: 0;
-	margin: auto;
 }
 
 .get-item-text2 {
@@ -165,18 +166,10 @@ nav {
     margin-bottom: 30px;
     font-weight:bold;
     font-size: 20px;
-    position: relative;
 }
 
 .iphone-block__title:after {
-    content: '';
-    width: 25%;
-    height: 1px;
-    background-color: #f57365;
-    position: absolute;
-    bottom: -10px;
-    left: 0;
-    right: 0;
+	margin: 0;
 }
 .iphone-block__description {
     font-size: 18px;
@@ -230,21 +223,12 @@ nav {
 	font-size: 18px;
 	font-weight: 700;
 	letter-spacing: 0.9px;
-	position: relative;
 	margin-bottom: 50px;
 	display: inline-block;
 }
 
 .browse__titles:after {
-	content: '';
-	position: absolute;
 	width: 55%;
-	height: 1px;
-	background-color: #f57365;
-	left: 0;
-	right: 0;
-	bottom: -10px;
-	margin: 0 auto;
 }
 
 .browse__catalog {
