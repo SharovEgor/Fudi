@@ -328,21 +328,45 @@ footer .container {
         padding: 10px 0;
     }
     .get-item-text1 {
-        font-size: 22px;
+        font-size: 32px;
     }
     .get-item-text2 {
-        font-size: 20px;
-    }
-
-
-    .reviews-block__slide {
         font-size: 30px;
     }
-    .reviews-block__sign {
-        font-size: 21px;
+    .iphone-block__iphone-img {
+        display: none;
     }
+    .iphone-block__text {
+        padding-right: 120px;
+        padding-bottom: 80px;
+        text-align: center;
+    }
+    .iphone-block__title {
+        text-align: center;
+        font-size: 33px;
+    }
+    .iphone-block__title:after {
+        margin: auto;
+    }
+    .iphone-block__description {
+        text-align: center;
+        font-size: 30px;
+    }
+	.iphone-block__social {
+		width: 30%;
+	}
+
+    .reviews-block__slide {
+        font-size: 35px;
+    }
+    .reviews-block__sign {
+        font-size: 28px;
+    }
+	.reviews-block__sign img {
+		width: 15%;
+	}
     .browse__titles {
-        font-size: 25px;
+        font-size: 30px;
     }
     .browse {
         padding-left: 30px;
@@ -354,6 +378,12 @@ footer .container {
     .browse__catalog {
         grid-template-columns: 1fr 1fr;
     }
+    .numbers-block__text {
+        font-size: 24px;
+    }
+	footer {
+		font-size: 17px;
+	}
 }
 /*max-width(1024px) end*/
 /*max-width(768px) start*/
