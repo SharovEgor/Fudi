@@ -305,7 +305,7 @@ footer .container {
         width: 95%;
     }
 	.menu {
-		font-size: 18px;
+		font-size: 20px;
 	}
 	.header_text-first {
 		font-size: 50px;
@@ -325,7 +325,7 @@ footer .container {
 	}
 	.get-block__item {
 		max-width: 450px;
-        padding: 10px 0;
+        padding: 15px 0;
     }
     .get-item-text1 {
         font-size: 32px;
@@ -373,7 +373,7 @@ footer .container {
         padding-right: 30px;
     }
     .browse__titles {
-        font-size: 20px;
+        font-size: 25px;
     }
     .browse__catalog {
         grid-template-columns: 1fr 1fr;
@@ -388,6 +388,48 @@ footer .container {
 /*max-width(1024px) end*/
 /*max-width(768px) start*/
 @media (max-width: 768px) {
+	.header_text-first {
+		font-size: 55px;
+	}
+	.header_text-second {
+		font-size: 145px;
+	}
+	.header_button {
+		font-size: 30px;
+	}
+	.header_text-third {
+		font-size: 21px;
+	}
+	.get-block__item img{
+		width: 9em;
+	}
+	.get-item-text1 {
+		font-size: 37px;
+	}
+	.get-item-text2 {
+		font-size: 30px;
+	}
+	.iphone-block__social {
+		width: 45%;
+		margin-right: 15px;
+	}
+	.reviews-block__slide {
+		font-size: 38px;
+	}
+	.reviews-block__sign {
+		font-size: 30px;
+	}
+	.reviews-block__sign img {
+		width: 20%;
+	}
+
+	.numbers-block {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	.numbers-block__number {
+		padding-top: 10px;
+	}
 
 }
 /*max-width(768px) end*/
