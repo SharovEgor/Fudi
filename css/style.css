@@ -386,42 +386,54 @@ footer .container {
 	.header_text-first {
 		font-size: 7vw;
 	}
+
 	.header_text-second {
 		/*font-size: 145px;*/
 		font-size: 21vw;
 	}
+
 	.header_button {
 		font-size: 4vw;
 	}
+
 	.header_text-third {
 		font-size: 2.5vw;
 	}
-	.get-block__item img{
+
+	.get-block__item img {
 		width: 9em;
 	}
+
 	.get-item-text1 {
 		font-size: 37px;
 	}
+
 	.get-item-text2 {
 		font-size: 30px;
 	}
+
 	.iphone-block__social {
 		width: 45%;
 		margin-right: 15px;
 	}
+
 	.reviews-block__slide {
 		font-size: 38px;
 	}
+
 	.reviews-block__sign {
 		font-size: 30px;
 	}
+
 	.reviews-block__sign img {
 		width: 20%;
 	}
+
 	.numbers-block {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
 	}
+
 	.numbers-block__number {
 		padding-top: 10px;
 	}
@@ -429,68 +441,87 @@ footer .container {
 /*max-width(768px) end*/
 /*max-width(425px) start*/
 @media (max-width: 425px) {
-    header {
-        min-height: 600px;
-    }
+	header {
+		min-height: 600px;
+	}
+
 	.header_text-first {
 		font-size: 10vw;
 	}
+
 	.header_text-second {
 		font-size: 25vw;
 	}
+
 	.header_button {
 		font-size: 7vw;
 	}
+
 	.header_text-third {
 		font-size: 4.5vw;
 	}
+
 	.get-block {
 		padding: 80px 2%;
 	}
+
 	.get-item-text1 {
 		font-size: 9vw;
 	}
+
 	.get-item-text1 {
 		font-size: 7.5vw;
 	}
-    .get-item-text1 {
-        font-size: 7.3vw;
-    }
-    .iphone-block__text {
-        padding: 0 4% 80px;
-    }
-    .iphone-block__title {
-        font-size: 10vw;
-    }
-    .iphone-block__description {
-        font-size: 7.5vw;
-    }
-    .iphone-block__social {
-        width: 60%;
-        margin-right: 0;
-    }
-    .reviews-block__slide {
-        font-size: 10vw
-    }
-    .reviews-block__sign {
-        font-size: 7.2vw;
-    }
-    .browse {
-        padding: 100px 0 0;
-    }
-    .browse__titles {
-        font-size: 7.33vw;
-    }
-    .numbers-block {
-        grid-template-columns: 1fr;
-        padding-bottom: 50px;
-    }
-    .numbers-block__number {
-        font-size: 10vw;
-    }
-    .numbers-block__text {
-        padding-bottom: 10px;
-        font-size: 8vw;
-    }
+
+	.get-item-text1 {
+		font-size: 7.3vw;
+	}
+
+	.iphone-block__text {
+		padding: 0 4% 80px;
+	}
+
+	.iphone-block__title {
+		font-size: 10vw;
+	}
+
+	.iphone-block__description {
+		font-size: 7.5vw;
+	}
+
+	.iphone-block__social {
+		width: 60%;
+		margin-right: 0;
+	}
+
+	.reviews-block__slide {
+		font-size: 10vw
+	}
+
+	.reviews-block__sign {
+		font-size: 7.2vw;
+	}
+
+	.browse {
+		padding: 100px 0 0;
+	}
+
+	.browse__titles {
+		font-size: 7.33vw;
+	}
+
+	.numbers-block {
+		grid-template-columns: 1fr;
+		padding-bottom: 50px;
+	}
+
+	.numbers-block__number {
+		font-size: 10vw;
+	}
+
+	.numbers-block__text {
+		padding-bottom: 10px;
+		font-size: 8vw;
+	}
 }
 /*max-width(425px) end*/
