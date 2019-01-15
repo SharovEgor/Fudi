@@ -9,10 +9,12 @@ body {
 	margin: 0 auto;
 	position: relative;
 }
-.common-underline{
+
+.common-underline {
 	position: relative;
 }
-.common-underline:after{
+
+.common-underline:after {
 	content: '';
 	height: 1px;
 	background-color: #f57365;
@@ -25,13 +27,13 @@ body {
 }
 
 button {
-	 padding: 0;
-	 background-color: transparent;
-	 border: 0;
-	 color: inherit;
-	 outline: none;
-	 cursor: pointer;
-	 font: inherit;
+	padding: 0;
+	background-color: transparent;
+	border: 0;
+	color: inherit;
+	outline: none;
+	cursor: pointer;
+	font: inherit;
 }
 
 /*Start header*/
@@ -77,9 +79,11 @@ nav {
 button.menu__sandwich {
 	margin-right: 0;
 }
+
 .menu__sandwich {
 	width: 1em;
 }
+
 .menu__sandwich img {
 	width: inherit;
 	height: inherit;
@@ -109,6 +113,7 @@ button.menu__sandwich {
 	margin-bottom: 40px;
 
 }
+
 .header_button {
 	display: inline-block;
 	font-size: 18px;
@@ -141,11 +146,13 @@ button.menu__sandwich {
 }
 
 .get-block__item:first-child {
-    padding-left: 0;
+	padding-left: 0;
 }
+
 .get-block__item:last-child {
-    padding-right: 0;
+	padding-right: 0;
 }
+
 .get-item-text1 {
 	font-size: 18px;
 	font-weight: 700;
@@ -162,45 +169,47 @@ button.menu__sandwich {
 /*Start section "iphone-block"*/
 
 .iphone-block {
-    display: flex;
+	display: flex;
 }
 
 .iphone-block__text {
-    padding-top: 80px;
-    padding-left: 120px;
+	padding-top: 80px;
+	padding-left: 120px;
 }
 
 .iphone-block__title {
-    margin-bottom: 30px;
-    font-weight:bold;
-    font-size: 20px;
+	margin-bottom: 30px;
+	font-weight: bold;
+	font-size: 20px;
 }
 
 .iphone-block__title:after {
 	margin: 0;
 }
+
 .iphone-block__description {
-    font-size: 18px;
-    font-weight: 300;
-    letter-spacing: 0.8px;
+	font-size: 18px;
+	font-weight: 300;
+	letter-spacing: 0.8px;
 }
 
-.iphone-block__social{
-    padding-top: 30px;
-    margin-right: 10px;
+.iphone-block__social {
+	padding-top: 30px;
+	margin-right: 10px;
 }
 
 /*End section "iphone-block"*/
 /*Start section "reviews-block"*/
 .reviews-block {
-    background-image: url("../img/bg-review.png");
-    -webkit-background-size: cover;
-    background-size: cover;
-    padding-top: 80px;
-    padding-bottom: 80px;
+	background-image: url("../img/bg-review.png");
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding-top: 80px;
+	padding-bottom: 80px;
 }
+
 .reviews-block__slide {
-    text-align: center;
+	text-align: center;
 	color: #fff;
 	font-family: 'Lato-Hairline';
 	font-size: 30px;
@@ -208,7 +217,7 @@ button.menu__sandwich {
 }
 
 .reviews-block__slide img {
-    display: inline;
+	display: inline;
 	margin-bottom: 30px;
 }
 
@@ -241,7 +250,7 @@ button.menu__sandwich {
 
 .browse__catalog {
 	display: grid;
-	grid-template-columns: 20% 20% 20% 20% 20% ;
+	grid-template-columns: 20% 20% 20% 20% 20%;
 	grid-template-rows: auto auto;
 }
 
@@ -258,6 +267,7 @@ button.menu__sandwich {
 	display: flex;
 	justify-content: space-between;
 }
+
 .numbers-block__number {
 	font-size: 36px;
 	font-weight: 700;
@@ -265,6 +275,7 @@ button.menu__sandwich {
 	margin-bottom: 12px;
 	text-align: center;
 }
+
 .numbers-block__text {
 	font-size: 16px;
 	font-weight: 300;
@@ -276,106 +287,131 @@ button.menu__sandwich {
 
 /*Start footer*/
 footer {
-    background-color: #f7f7f7;
-    font-size: 14px;
-    padding: 40px 0;
-    font-weight: 300;
+	background-color: #f7f7f7;
+	font-size: 14px;
+	padding: 40px 0;
+	font-weight: 300;
 }
 
 footer .container {
-    display: flex;
-    justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
+
 .footer__text-left {
-    opacity: 0.5;
+	opacity: 0.5;
 }
+
 .footer__text-right {
-    letter-spacing: 2.8px;
+	letter-spacing: 2.8px;
 }
 
 .footer__text-right span {
-    font-weight: 400;
+	font-weight: 400;
 }
 
 /*End footer*/
 /*max-width(1024px) start*/
 @media (max-width: 1024px) {
-    .container {
-        width: 95%;
-    }
+	.container {
+		width: 95%;
+	}
+
 	.menu {
 		font-size: 20px;
 	}
+
 	.header_text-first {
 		font-size: 50px;
 	}
+
 	.header_text-second {
 		font-size: 140px;
 	}
+
 	.header_button {
 		font-size: 25px;
 	}
+
 	.header_text-third {
 		font-size: 16px;
 	}
+
 	.get-block {
 		flex-direction: column;
-        padding: 80px;
+		padding: 80px;
 	}
+
 	.get-block__item {
 		max-width: 450px;
-        padding: 15px 0;
-    }
-    .get-item-text1 {
-        font-size: 32px;
-    }
-    .get-item-text2 {
-        font-size: 30px;
-    }
-    .iphone-block__iphone-img {
-        display: none;
-    }
-    .iphone-block__text {
-        padding-right: 120px;
-        padding-bottom: 80px;
-        text-align: center;
-    }
-    .iphone-block__title {
-        text-align: center;
-        font-size: 33px;
-    }
-    .iphone-block__title:after {
-        margin: auto;
-    }
-    .iphone-block__description {
-        text-align: center;
-        font-size: 30px;
-    }
+		padding: 15px 0;
+	}
+
+	.get-item-text1 {
+		font-size: 32px;
+	}
+
+	.get-item-text2 {
+		font-size: 30px;
+	}
+
+	.iphone-block__iphone-img {
+		display: none;
+	}
+
+	.iphone-block__text {
+		padding-right: 120px;
+		padding-bottom: 80px;
+		text-align: center;
+	}
+
+	.iphone-block__title {
+		text-align: center;
+		font-size: 33px;
+	}
+
+	.iphone-block__title:after {
+		margin: auto;
+	}
+
+	.iphone-block__description {
+		text-align: center;
+		font-size: 30px;
+	}
+
 	.iphone-block__social {
 		width: 30%;
 	}
-    .reviews-block__slide {
-        font-size: 35px;
-    }
-    .reviews-block__sign {
-        font-size: 28px;
-    }
+
+	.reviews-block__slide {
+		font-size: 35px;
+	}
+
+	.reviews-block__sign {
+		font-size: 28px;
+	}
+
 	.reviews-block__sign img {
 		width: 15%;
 	}
-    .browse {
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-    .browse__titles {
-        font-size: 30px;
-    }
-    .browse__catalog {
-        grid-template-columns: 1fr 1fr;
-    }
-    .numbers-block__text {
-        font-size: 24px;
-    }
+
+	.browse {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.browse__titles {
+		font-size: 30px;
+	}
+
+	.browse__catalog {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.numbers-block__text {
+		font-size: 24px;
+	}
+
 	footer {
 		font-size: 17px;
 	}
